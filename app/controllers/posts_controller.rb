@@ -52,3 +52,4 @@ end
     params.permit(:title, :category, :content)
   end
 end
+end
