@@ -36,7 +36,7 @@ class PostsController < ApplicationController
   end
 end
     @post = Post.find(params[:id])
-  end
+
 
   def update
     @post = Post.find(params[:id])
@@ -51,5 +51,4 @@ end
   def post_params
     params.permit(:title, :category, :content)
   end
-end
 end
